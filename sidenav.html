@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sidenav</title>
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+</head>
+
+<body>
+
+    <div class="container section">
+        <a href="#" class="sidenav-trigger" data-target="menu-sidenav">
+            <i class="material-icons">menu</i>
+        </a>
+
+        <ul class="sidenav" id="menu-sidenav">
+            <li>
+                <div class="user-view">
+                    <div class="background">
+                        <img src="s3.jpg" alt="">
+                    </div>
+                    <a href="#">
+                        <img src="s1.jpg" alt="" class="circle">
+                    </a>
+                    <a href="#">
+                        <span class="mane  white-text">Alejandro</span>
+                    </a>
+                    <a href="#">
+                        <span class="email white-text">alejo@gmail.com</span>
+                    </a>
+                </div>
+            </li>
+            <li>
+                <a href="">
+                    <i class="material-icons">cloud</i> Elemento1
+                </a>
+                <a href="">
+                    <i class="material-icons">add</i> Elemento2
+                </a>
+                <a href="">
+                    <i class="material-icons">person</i> Elemento3
+                </a>
+            </li>
+
+        </ul>
+    </div>
+
+
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            M.AutoInit();
+        });
+    </script>
+</body>
+
+</html>
