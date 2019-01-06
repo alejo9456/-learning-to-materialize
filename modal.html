@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Modal</title>
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+</head>
+
+<body>
+
+    <div class="container section">
+        <a href="#modal" class="btn modal-trigger blue">Modal</a>
+
+        <button class="btn modal-trigger green" data-target="modal2">Modal con boton</button>
+
+        <div id="modal" class="modal">
+            <div class="modal-content">
+                <h2 class="green-text">Lorem ipsum dolor sit.</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ex iusto, enim saepe dolorem ea nihil consequatur ipsa inventore aut nesciunt quaerat cum repudiandae doloremque voluptatem sunt ducimus dolores molestiae perspiciatis.</p>
+            </div>
+            <div class="modal-footer">
+                <a href="" class="btn model-close">Cerrar</a>
+            </div>
+        </div>
+
+        <div id="modal2" class="modal">
+            <div class="modal-content">
+                <h2 class="yellow-text">Lorem ipsum dolor sit.</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ex iusto, enim saepe dolorem ea nihil consequatur ipsa inventore aut nesciunt quaerat cum repudiandae doloremque voluptatem sunt ducimus dolores molestiae perspiciatis.</p>
+            </div>
+            <div class="modal-footer">
+                <a href="" class="btn model-close">Cerrar</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            M.AutoInit();
+        });
+    </script>
+</body>
+
+</html>
