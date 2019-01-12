@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Parallax</title>
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+</head>
+
+<body>
+
+    <div class="parallax-container">
+        <div class="parallax">
+            <img src="dog1.jpg" alt="">
+        </div>
+    </div>
+    <div class="black white-text">
+        <div class="container">
+            <div class="section">
+                <h3>Lorem, ipsum dolor.</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos iure libero eum possimus aperiam ratione ipsum sunt iusto, repudiandae quibusdam consequatur quia, quod quos provident, quas at doloremque cupiditate odit.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="parallax-container">
+        <div class="paralax">
+            <img src="dog2.jpg" alt="">
+        </div>
+    </div>
+
+    <div class="black white-text">
+        <div class="container">
+            <div class="section">
+                <h3>Lorem, ipsum dolor.</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos iure libero eum possimus aperiam ratione ipsum sunt iusto, repudiandae quibusdam consequatur quia, quod quos provident, quas at doloremque cupiditate odit.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            let elems = document.querySelectorAll('.parallax');
+            let instances = M.Parallax.init(elems);
+        });
+    </script>
+</body>
+
+</html>

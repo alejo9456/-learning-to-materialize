@@ -40,7 +40,17 @@
 
     <script>
         document.addEventListener('DOMContentLoaded', function() {
-            M.AutoInit();
+            var options = {
+                data: {
+                    "HTML": null,
+                    "CSS": null,
+                    "JAVA": null,
+                    "ANGULAR": null
+                }
+            }
+
+            var elems = document.querySelectorAll('.autocomplete');
+            var instances = M.Autocomplete.init(elems, options);
         });
     </script>
 </body>
